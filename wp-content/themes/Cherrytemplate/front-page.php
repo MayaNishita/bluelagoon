@@ -11,83 +11,33 @@ get_header(); ?>
 </section>
 
 <main>
-	<section id="area1" class="clearfix">
-<h2><span>Service</span></h2>
-
-             <article class="floatnone view view-first">
-                     <div class="view view-first"><a href="custam.html"><img src="<?php echo get_template_directory_uri(); ?>images/custam_02.jpg" width="" height=""></a></div>
+	   <section id="area1" class="clearfix">
+        <h2><span>Service</span></h2>
+        <article class="floatnone view view-first">
+                <?php query_posts( 'category_name=service&posts_per_page=3' ); ?>
+                    <?php while ( have_posts() ) : the_post(); ?>
+                     <div class="view view-first"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium' ); ?></a></div>
                      <div class="mask">
-                     <h3>CUSTAM</h3>
-                     <p>あなたの愛車をお好みでカスタマイズいたします。</p>
-                         <a href="custam.html" class="info">Read More</a>
+                        <h3><?php echo get_the_title(); ?></h3>
+                        <a href="<?php the_permalink(); ?>">Read More</a>
+                     <?php endwhile; ?>
+                 </div>
+             </article>
+        </section>
 
-                	</div>
-
-        	</article>
-            <article class="floatnone view view-first">
-
-                     <div class="view view-first"><a href="maintenance.html"><img src="<?php echo get_template_directory_uri(); ?>images/maintenance.jpg" width="" height=""></a></div>
+    <section id="area2" class="clearfix">
+        <h2><span>Blog</span></h2>
+        <article class="floatnone view view-first">
+                <?php query_posts( 'category_name=blog&posts_per_page=3' ); ?>
+                    <?php while ( have_posts() ) : the_post(); ?>
+                     <div class="view view-first"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium' ); ?></a></div>
                      <div class="mask">
-                     <h3>maintenance</h3>
-                     <p>車検や整備をお任せ下さい</p>
-                         <a href="maintenance.html" class="info">Read More</a>
-
-                	</div>
-
-        	</article>
-            <article class="floatnone view view-first">
-
-                     <div class="view view-first"><a href="onsale.html"><img src="<?php echo get_template_directory_uri(); ?>images/onsale.jpg" width="" height=""></a></div>
-                     <div class="mask">
-                     <h3>on sale</h3>
-                     <p>チェリーズカンパニーオリジナル完成車販売</p>
-                         <a href="onsale.html" class="info">Read More</a>
-
-                	</div>
-
-        	</article>
-
-  </section>
-
-<section id="area2" class="clearfix">
-                	<h2><span>Blog</span></h2>
-					<article class="floatnone view view-first">
-
-                     <div class="view view-first"><a href="onsale.html"><img src="<?php echo get_template_directory_uri(); ?>images/blog.jpg" width="" height=""></a></div>
-                     <div class="mask">
-                     <h3>ブログのタイトル</h3>
-                     <p>ブログの内容</p>
-                         <a href="#" class="info">Read More</a>
-
-                	</div>
-
-        	</article>
-
-                    <article class="floatnone view view-first">
-
-                     <div class="view view-first"><a href="onsale.html"><img src="<?php echo get_template_directory_uri(); ?>images/blog.jpg" width="" height=""></a></div>
-                     <div class="mask">
-                     <h3>ブログのタイトル</h3>
-                     <p>ブログの内容</p>
-                         <a href="#" class="info">Read More</a>
-
-                	</div>
-
-        	</article>
-
-                    <article class="floatnone view view-first">
-
-                     <div class="view view-first"><a href="onsale.html"><img src="<?php echo get_template_directory_uri(); ?>images/blog.jpg" width="" height=""></a></div>
-                     <div class="mask">
-                     <h3>ブログのタイトル</h3>
-                     <p>ブログの内容</p>
-                         <a href="#" class="info">Read More</a>
-
-                	</div>
-
-        	</article>
-
-  </section>
+                        <h3><?php echo get_the_title(); ?></h3>
+                        <a href="<?php the_permalink(); ?>">Read More</a>
+                     <?php endwhile; ?>
+                 </div>
+             </article>
+         </section>
   <div id="page-top" class="page-top">
 	<p><a id="move-page-top" class="move-page-top">▲</a></p>
 </div>
