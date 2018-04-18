@@ -25,6 +25,7 @@ get_header(); ?>
         <?php endwhile; ?>
         </section>
         <section id="area2" class="clearfix">
+        <h2><span>Blog</span></h2>
        <?php query_posts( 'category_name=blog&posts_per_page=3' ); ?>
        <?php while ( have_posts() ) : the_post(); ?>
         <article class="floatnone view view-first">
