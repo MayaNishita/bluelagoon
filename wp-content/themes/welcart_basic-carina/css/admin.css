@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+/* = Theme Customizer
+-------------------------------------------------------------- */
+#accordion-section-title_tagline #customize-control-control_facebook_id,
+#accordion-section-title_tagline #customize-control-control_twitter_id,
+#accordion-section-title_tagline #customize-control-control_instagram_id,
+#accordion-section-welcart_basic_design #customize-control-h_itemcat,
+#accordion-section-welcart_basic_design #customize-control-control_display_soldout,
+#accordion-section-welcart_basic_design #customize-control-control_display_inquiry,
+#accordion-section-welcart_basic_design #customize-control-control_display_inquiry_text,
+#accordion-section-welcart_basic_design #customize-control-control_inquiry_link,
+#accordion-section-welcart_basic_design #customize-control-control_continue_shopping_button,
+#accordion-section-welcart_basic_design #customize-control-control_display_info,
+#accordion-section-welcart_basic_design #customize-control-info_cat {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+#accordion-section-welcart_basic_design #customize-control-info_cat {
+	padding-bottom: 10px;
+}
+#accordion-section-title_tagline .customize-control,
+#accordion-section-welcart_basic_design .customize-control {
+	padding-bottom: 15px;
+}
+#customize-control-control_facebook_id:before,
+#customize-control-control_display_soldout:before,
+#customize-control-control_review:before,
+#customize-control-control_continue_shopping_button:before,
+#customize-control-control_display_info:before,
+#customize-control-control_cat_image:before,
+#customize-control-background_color:before,
+#customize-control-main_th_color:before,
+#customize-control-main_btn_color:before,
+#customize-control-sub_btn_color:before,
+#customize-control-cart_btn_color:before,
+#customize-control-contact_btn_color:before,
+#customize-control-main_biz_color:after,
+#customize-control-opt_new_bg_color:before,
+#customize-control-opt_reco_bg_color:before,
+#customize-control-opt_stock_bg_color:before,
+#customize-control-opt_sale_bg_color:before,
+#customize-control-sub_bg_color:before,
+#customize-control-sub_th_color:before,
+#customize-control-footer_bg_color:before {
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+}
+#customize-control-control_facebook_id:before,
+#customize-control-control_display_soldout:before,
+#customize-control-control_review:before,
+#customize-control-control_continue_shopping_button:before,
+#customize-control-control_display_info:before,
+#customize-control-control_cat_image:before {
+	margin-bottom: 5px;
+}
+#customize-control-background_color:before,
+#customize-control-main_biz_color:after,
+#customize-control-sub_bg_color:before,
+#customize-control-footer_bg_color:before {
+	margin: 20px -12px 10px;
+	padding: 10px 10px 11px 14px;
+	background-color: #fff;
+}
+#customize-control-background_color:before {
+	margin-top: 0;
+}
+#accordion-section-welcart_basic_design #customize-control-control_display_inquiry_text,
+#accordion-section-welcart_basic_design #customize-control-control_continue_shopping_url,
+#accordion-section-welcart_basic_design #customize-control-info_cat,
+#accordion-section-welcart_basic_design #customize-control-info_num {
+	-webkit-box-sizing: inherit; 
+	-moz-box-sizing: inherit;
+	box-sizing: inherit; 
+	padding-left: 1.45rem;
+}
+#customize-control-main_biz_color:after,
+#customize-control-main_th_color,
+#customize-control-main_btn_color,
+#customize-control-sub_btn_color,
+#customize-control-cart_btn_color,
+#customize-control-contact_btn_color,
+#customize-control-opt_new_bg_color,
+#customize-control-opt_reco_bg_color,
+#customize-control-opt_stock_bg_color,
+#customize-control-opt_sale_bg_color,
+#customize-control-sub_th_color {
+	margin-bottom: 0;
+}
+#customize-control-main_th_color label,
+#customize-control-main_th_text_color label,
+#customize-control-main_btn_color label,
+#customize-control-main_btn_text_color label,
+#customize-control-sub_btn_color label,
+#customize-control-sub_btn_text_color label,
+#customize-control-cart_btn_color label,
+#customize-control-cart_btn_text_color label,
+#customize-control-contact_btn_color label,
+#customize-control-contact_btn_text_color label,
+#customize-control-opt_new_bg_color label,
+#customize-control-opt_new_text_color label,
+#customize-control-opt_reco_bg_color label,
+#customize-control-opt_reco_text_color label,
+#customize-control-opt_stock_bg_color label,
+#customize-control-opt_stock_text_color label,
+#customize-control-opt_sale_bg_color label,
+#customize-control-opt_sale_text_color label,
+#customize-control-sub_th_color label,
+#customize-control-sub_th_text_color label {
+	display: block;
+	padding-left: 1.45rem;
+}
+#customize-control-main_th_color label span,
+#customize-control-main_th_text_color label span,
+#customize-control-main_btn_color label span,
+#customize-control-main_btn_text_color label span,
+#customize-control-sub_btn_color label span,
+#customize-control-sub_btn_text_color label span,
+#customize-control-cart_btn_color label span,
+#customize-control-cart_btn_text_color label span,
+#customize-control-contact_btn_color label span,
+#customize-control-contact_btn_text_color label span,
+#customize-control-opt_new_bg_color span,
+#customize-control-opt_new_text_color span,
+#customize-control-opt_reco_bg_color span,
+#customize-control-opt_reco_text_color span,
+#customize-control-opt_stock_bg_color span,
+#customize-control-opt_stock_text_color span,
+#customize-control-opt_sale_bg_color span,
+#customize-control-opt_sale_text_color span,
+#customize-control-sub_th_color label span,
+#customize-control-sub_th_text_color label span {
+	font-weight: normal;
+}
+
+/* = Category Term Meta
+-------------------------------------------------------------- */
+.wcct-image-uploader .thumbnail-form {
+	overflow: hidden;
+}
+.wcct-image-uploader .thumbnail-form input,
+.wcct-image-uploader .thumbnail-form button {
+	float: left;
+}
+.wcct-image-uploader .thumbnail-form input {
+	width: 70%;
+}
+.wcct-image-uploader .wcct-tag-thumbnail-preview {
+	padding: 1px;
+}
+.wcct-image-uploader .wcct-tag-thumbnail-preview img {
+	width: 100%;
+	height: auto;
+}
+.edit-form-field .wcct-tag-thumbnail-preview img {
+	width: 50%;
+}

@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-07-20 00:00+0900\n"
+"PO-Revision-Date: 2016-11-07 17:12+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Widget area under the category list"
+msgstr "ホーム　カテゴリー一覧下"
+
+msgid ""
+"You can display the widget under the category list. Please use to display "
+"the banner and product list."
+msgstr ""
+"カテゴリー一覧下にウィジェットを表示することができます。バナーや商品一覧を表"
+"示するのにお使いください。"
+
+msgid "Widget area under the item list"
+msgstr "ホーム　商品一覧下"
+
+msgid ""
+"You can display the widget under the item list. Please use to display the "
+"banner and product list."
+msgstr ""
+"商品一覧下にウィジェットを表示することができます。バナーや商品一覧を表示する"
+"のにお使いください。"
+
+msgid "Widget area under the post list"
+msgstr "ホーム　インフォメーション一覧下"
+
+msgid ""
+"You can display the widget under the post list. Please use to display the "
+"banner and product list."
+msgstr ""
+"インフォメーション一覧下にウィジェットを表示することができます。バナーや商品"
+"一覧を表示するのにお使いください。"
+
+msgid "Logo image"
+msgstr "ロゴ画像"
+
+msgid "If the logo image has not been registered, see the site title."
+msgstr "ロゴ画像が登録されていない場合は、サイトのタイトルが表示されます"
+
+msgid "Display Catchphrase"
+msgstr "キャッチフレーズを表示する"
+
+msgid "Display SNS mark"
+msgstr "各種 SNS の表示"
+
+msgid "Display facebook"
+msgstr "Facebook の表示"
+
+msgid "Enter the your page name."
+msgstr "Facebookページ名を入力してください。"
+
+msgid "Show facebook"
+msgstr "Facebook を表示する"
+
+msgid "Display twitter"
+msgstr "Twitter の表示"
+
+msgid "Enter the user name."
+msgstr "ユーザー名を入力してください。"
+
+msgid "Show twitter"
+msgstr "Twitter を表示する"
+
+msgid "Display instagram"
+msgstr "Instagram の表示"
+
+msgid "Show instagram"
+msgstr "Instagram を表示する"
+
+msgid "Main area"
+msgstr "メインエリア"
+
+msgid "Sub area"
+msgstr "サブエリア"
+
+msgid "Footer area"
+msgstr "フッターエリア"
+
+msgid "Text color"
+msgstr "テキスト色"
+
+msgid "Border color"
+msgstr "ボーダー色"
+
+msgid "Table heading color"
+msgstr "テーブル見出し色"
+
+msgid "Main button color"
+msgstr "メインボタン色"
+
+msgid "Sub button color"
+msgstr "サブボタン色"
+
+msgid "Cart button color"
+msgstr "カートボタン色"
+
+msgid "Contact button color"
+msgstr "お問合せボタン色"
+
+msgid "Holiday color"
+msgstr "発送業務休日色"
+
+msgid "Product tag color"
+msgstr "商品タグ色"
+
+msgid "New tag color"
+msgstr "「新着商品」タグ色"
+
+msgid "Recommend tag color"
+msgstr "「お勧め商品」タグ色"
+
+msgid "Stock tag color"
+msgstr "「在庫僅少」タグ色"
+
+msgid "Sale tag color"
+msgstr "「セール」タグ色"
+
+msgid "Display the category title"
+msgstr "カテゴリー名を表示する"
+
+msgid "Sidebar position"
+msgstr "サイドバーの位置"
+
+msgid "Please select the position where you want to display."
+msgstr "表示したい位置を選択してください"
+
+msgid "Left sidebar"
+msgstr "左サイドバー"
+
+msgid "Right sidebar"
+msgstr "右サイドバー"
+
+msgid "Display in the commodity block"
+msgstr "商品ブロックに追加表示"
+
+msgid "Display the Soldout"
+msgstr "SOLD OUT を表示する"
+
+msgid "Display the inquiry text"
+msgstr "お問い合わせテキストの表示"
+
+msgid "Contacting this item"
+msgstr "この商品へのお問い合わせ"
+
+msgid "Enter the message you want to display."
+msgstr "表示するメッセージを入力してください。"
+
+msgid "Display the produt tag"
+msgstr "商品タグを表示する"
+
+msgid "Information article"
+msgstr "インフォメーション記事"
+
+msgid "Display information"
+msgstr "インフォメーションを表示する"
+
+msgid "Please select a category to be displayed."
+msgstr "表示するカテゴリーを選択してください。"
+
+msgid "Please select a display number."
+msgstr "表示件数を選択してください。"
+
+msgid "The cart button"
+msgstr "カートボタン"
+
+msgid "The inquiry button"
+msgstr "お問い合わせボタン"
+
+msgid ""
+"Display the inquiry button when the product is sold out.<br />Please select "
+"Page."
+msgstr ""
+"売り切れになった時にお問い合わせボタンを表示します。<br />リンク先の固定ペー"
+"ジを選択してください。"
+
+msgid "Display the inquiry button"
+msgstr "お問い合わせボタンを表示する"
+
+msgid "Display product reviews"
+msgstr "商品レビューの表示"
+
+msgid "Show product reviews"
+msgstr "商品レビューを表示する"
+
+msgid "Link for a continue shopping button"
+msgstr "「買い物を続ける」ボタンのリンク先"
+
+msgid "Change the destination link"
+msgstr "リンク先を変更する"
+
+msgid "Destination URL"
+msgstr "リンク先のURL"
+
+msgid "Category name position"
+msgstr "カテゴリー名の表示位置"
+
+msgid "Displayed over the image"
+msgstr "画像の上に表示する"
+
+msgid "Product Details"
+msgstr "商品詳細"
+
+msgid "Review"
+msgstr "レビュー"
+
+msgid "Please post a review on this product."
+msgstr "この商品についてのご感想をお願いします。"
+
+msgid "Nickname will be published."
+msgstr "ニックネームは公開されます。"
+
+msgid "Nickname"
+msgstr "ニックネーム"
+
+msgid "When you log in you can post a review."
+msgstr "ログインしてレビューを書く事ができます。"
+
+msgid "To login"
+msgstr "ログインする"
+
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">より:</span>"
+
+msgid "Your review is awaiting moderation."
+msgstr "お客様のレビューは、ただ今管理者の承認待ちです。"
+
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+msgid "(Edit)"
+msgstr "(編集)"
+
+msgid "We hope that you will post a review."
+msgstr "お客様のレビューをお待ちしています。"
+
+msgid ""
+"Thank you for the review. Please wait for a while until it is published."
+msgstr "レビューありがとうございます。公開されるまでしばらくお待ちください。"
+
+msgid "Pingback:"
+msgstr "ピンバック:"
+
+msgid "<span class=\"meta-nav\">&larr;</span> Older Reviews"
+msgstr "<span class=\"meta-nav\">&larr;</span> 古いレビュー"
+
+msgid "Newer Reviews <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新しいレビュー <span class=\"meta-nav\">&rarr;</span>"
+
+msgid "Reviews are closed."
+msgstr "レビューは受け付けていません。"
+
+msgid "Submit a review"
+msgstr "レビューを送信"
+
+msgid "Inquiries regarding this item"
+msgstr "この商品に関するお問い合わせ"
+
+msgid "One Review to %2$s"
+msgid_plural "%1$s Reviews to %2$s"
+msgstr[0] "%2$s についてのレビュー（%1$s件）"
+
+msgid "Category image"
+msgstr "カテゴリー画像"
+
+msgid "Set the category image"
+msgstr "カテゴリー画像を設定"

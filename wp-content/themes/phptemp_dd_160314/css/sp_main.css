@@ -1,0 +1,322 @@
+@charset "UTF-8";
+
+@media only screen and (max-width : 480px){
+
+/******************************************
+ ヘッダー
+******************************************/
+
+#head {
+	width: 97%;
+	margin: 0 auto 22px auto;
+}
+
+#head-l {
+	width: 100%;
+}
+
+#logo {
+	width: 100%;
+	margin-bottom: 5px;
+	font-size: 120%;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#logodisc {
+	margin-bottom: 5px;
+}
+
+#logodisc h1 {
+}
+
+#head-r {
+	display: none;
+}
+
+#head-r ul {
+}
+
+#head-r ul li {
+}
+
+#head-r ul li a {
+}
+
+#head-r ul li a:hover {
+}
+
+
+/******************************************
+ グローバルメニュー
+******************************************/
+
+#globalbg {
+	width: 97%;
+	margin: 0 auto 30px auto;
+	position: relative;
+}
+
+
+
+/******************************************
+ パンくず
+******************************************/
+
+#pankuzu {
+	width: 97%;
+	margin: 0 auto 30px auto;
+}
+
+#plink {
+	text-align: left;
+}
+
+
+#foot_pan {
+	width: 100%;
+	background-color: #efefef;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#foot_pan_link {
+	width: 97%;
+	margin: 0 auto;
+}
+
+#foot_pan_link:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#foot_pan_link ul {
+}
+
+#foot_pan_link ul li {
+	float: left;
+	font-size: 90%;
+	text-align: left;
+}
+
+#foot_pan_link ul li a {
+	margin-right: 10px;
+	position: relative;
+	padding-right: 8px;
+	display: block;
+}
+
+#foot_pan_link ul li a:after {
+	content:">";
+	font-size:90%;
+	line-height: 1em;
+	font-family:"ＭＳ Ｐゴシック",sans-serif;
+	color:#999;
+	position:absolute;
+	right:-5px;
+	top: 3px;
+	display: block;
+}
+
+
+
+/******************************************
+ メイン画像
+******************************************/
+
+#main {
+	width: 100%;
+	background-image: url(/img/mainbg.jpg);
+	background-size: 100%;
+	background-position: center top;
+	margin-bottom: 20px;
+
+}
+
+#main div {
+	color: #fff;
+	font-size: 100%;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/******************************************
+ メインコンテンツフレーム
+******************************************/
+
+#maincontents {
+	width: 97%;
+	margin: 0 auto;
+}
+
+#cen {
+	clear: both;
+	width: 100%;
+}
+
+#ri {
+	width: 100%;
+	clear: both;
+	margin-bottom: 30px;
+}
+
+
+/******************************************
+ ライトメニュー
+******************************************/
+
+.side {
+	width: 100%;
+	margin: 0 auto 15px auto;
+}
+
+.menubox {
+	width: 100%;
+}
+
+.menuboxttl {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #efefef;
+}
+
+.menuboxttl h4 {
+	padding-left: 8px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.menulink {
+	width: 100%;
+}
+
+.menulink_a {
+	text-align: left;
+	text-indent: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.menulink_a a {
+	display: block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.menulink_a a:hover {
+	background-color: #efefef;
+}
+
+.menulink_a#ac a {
+	background-color: #ffffee;
+}
+
+
+/******************************************
+ フッター
+******************************************/
+
+#foot {
+	width: 100%;
+	background-color: #F5F5DC;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#flink {
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+.flinkw {
+	width: 100%;
+	clear: both;
+}
+
+.flinkw ul {
+}
+
+.flinkw ul li {
+	
+}
+
+.flinkw ul li a {
+	display: block;
+	background-image: url(/img/flinkicon.gif);
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	background-color: #FBF8EF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #ccc;
+	padding-left: 30px;
+	text-align: left;
+}
+
+.flinkbnr {
+	width: 90%;
+	clear: both;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.flinkbnr img {
+}
+
+
+#footdisc {
+	border-bottom: 1px solid #ccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#footdisc h4 {
+}
+
+#footad {
+	width: 100%;
+	background-color: #151515;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: #fff;
+}
+
+#footad address {
+
+}
+
+
+/******************************************
+ ページトップ
+******************************************/
+
+#pagetop {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 11px;
+}
+
+#pagetop a {
+	background: #666;
+	text-decoration: none;
+	color: #fff;
+	width: 80px;
+	padding: 15px 0;
+	text-align: center;
+	display: block;
+	border-radius: 5px;
+}
+
+#pagetop a:hover {
+	text-decoration: none;
+	background: #999;
+}
+
+}

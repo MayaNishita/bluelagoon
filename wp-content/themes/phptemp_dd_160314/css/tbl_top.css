@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 768px){
+
+/******************************************
+ トップページのコンテンツ用CSS
+******************************************/
+
+.topmain {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.topmain-ttl {
+	width: 90%;
+	margin: 0 auto 20px auto;
+}
+
+.topmain-ttl h2 {
+	border: 5px solid #000000;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	padding: 7px 10px;
+	font-size: 120%;
+}
+
+.topmain-ttl h3 {
+	border: 5px solid #000000;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	padding: 7px 10px;
+	font-size: 120%;
+}
+
+.topmain-txt {
+	clear: both;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.topmain-txt p {
+	margin-bottom: 20px;
+	text-align: left;
+	color: both;
+}
+
+.topmain-img-l {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+.topmain-img-r {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+.topmain-img {
+	clear: both;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+.topmain-img-l img, 
+.topmain-img-r img, 
+.topmain-img img {
+	width: 90%;
+}
+
+}

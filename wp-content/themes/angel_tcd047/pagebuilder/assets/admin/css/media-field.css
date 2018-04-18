@@ -1,0 +1,3 @@
+/* 画像の読み込みフィールド */
+.pb_media_field { padding:5px 0 0; }
+.pb_media_field .preview_field img { display:block; max-width:200px; max-height:120px; width:auto; height:auto; margin:0 0 10px 0; }

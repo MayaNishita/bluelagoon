@@ -1,0 +1,15 @@
+Seos Photography changelog
+
+= Version 1.2.4 February 14 2017 =
+* FIXED: Remove Tags
+
+= Version 1.2.3 November 17 2017 =
+* FIXED: Button 2 Issue
+* FIXED: Customize Issues
+
+= Version 1.2.2 November 17 2017 =
+* FIXED: KIRKI Issue
+
+
+= Version 1.01 =
+* Initial release

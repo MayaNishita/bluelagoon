@@ -1,0 +1,76 @@
+/*
+Styles for jQuery Plugin Overwrite.
+*/
+
+/* jQuery mmenu Overwrite */
+
+.mm-listview > li:not(.mm-divider):after {
+	left: 0;
+}
+
+.mm-menu {
+	background-color: #333;
+	background-image: none !important;
+	color: #fff;
+}
+
+.mm-menu .mm-header {
+	border-color: #999;
+}
+
+.mm-menu .mm-header > a {
+	color: #fff;
+}
+
+.mm-menu .mm-header .mm-btn:before,
+.mm-menu .mm-header .mm-btn:after {
+	border-color: #fff;
+}
+
+.mm-menu .mm-listview > li:after {
+	border-color: #999;
+}
+
+.mm-menu .mm-listview > li > a.mm-prev, .mm-menu .mm-listview > li > a.mm-next {
+	color: #fff;
+}
+
+.mm-menu .mm-listview > li > a.mm-prev:before, .mm-menu .mm-listview > li > a.mm-next:after {
+	border-color: #999;
+}
+
+.mm-menu .mm-listview > li > a.mm-prev:after, .mm-menu .mm-listview > li > a.mm-next:before {
+	border-color: #999;
+}
+
+html #wpadminbar,
+#wpadminbar {
+	position: fixed !important;
+}
+
+html.mm-opened body.logged-in {
+	margin-top: -46px;
+}
+
+html.mm-opened body.logged-in #page {
+	position: fixed;
+	top: 46px;
+}
+
+/* BX Slider Overwrite */
+.bx-wrapper {
+	margin: 0 auto 35px;
+}
+
+.main_slider_one .bx-wrapper {
+	margin: 0 auto 5px;
+}
+
+.main_slider_one .bx-wrapper .bx-pager-item {
+	display: none;
+}
+
+.bx-wrapper .bx-caption span {
+  font-size: 14px;
+  padding: 15px;
+}

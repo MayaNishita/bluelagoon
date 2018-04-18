@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 768px){
+
+/******************************************
+ その他ページのコンテンツ用CSS
+******************************************/
+
+
+.submain {
+	width: 97%;
+	margin: 0 auto;
+}
+
+.submain-ttl {
+	width: 90%;
+	margin: 0 auto 20px auto;
+}
+
+.submain-ttl h2 {
+	border: 5px solid #000000;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	padding: 7px 10px;
+	font-size: 120%;
+}
+
+.submain-ttl h3 {
+	border: 5px solid #000000;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	padding: 7px 10px;
+	font-size: 120%;
+}
+
+.submain-txt {
+	clear: both;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.submain-txt p {
+	margin-bottom: 20px;
+	text-align: left;
+	clear: both;
+}
+
+.submain-img-l {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+.submain-img-r {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+
+.submain-img {
+	clear: both;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+.submain-img-l img, 
+.submain-img-r img, 
+.submain-img img {
+	width: 90%;
+}
+
+
+.sitemaptbl {
+	width: 97%;
+	margin: 0 auto 20px auto;
+	text-align: left;
+}
+
+.sitemaptbl ul {
+}
+
+.sitemaptbl ul li {
+	list-style: disc;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.sitemaptbl ul li ul {
+}
+
+.sitemaptbl ul li ul li {
+	list-style: circle;
+	margin-left: 20px;
+}
+
+}

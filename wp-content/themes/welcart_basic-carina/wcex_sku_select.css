@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* --------------------------------------------------------------
+
+Item Single
+
+-------------------------------------------------------------- */
+/* Common
+-------------------------------------------------------------- */
+.item-sku select {
+	width: 100%;
+	height: 40px;
+	padding: 0 2.14286em 0 .5714285em;
+	line-height: 40px;
+}
+
+/* List
+-------------------------------------------------------------- */
+dl.item-sku {
+	display: block;
+	padding: 20px 0;
+	border-width: 1px 0;
+}
+dl.item-sku dt,
+dl.item-sku dd {
+	display: block;
+	padding: 0;
+	width: 100%;
+	background: none;
+	border: none;
+}
+dl.item-sku dd {
+	margin-bottom: 10px;
+}
+
+/* Table
+-------------------------------------------------------------- */
+table.item-sku {
+	border: none;
+}
+table.item-sku th {
+	font-weight: normal;
+}
+
+/* --------------------------------------------------------------
+
+Media Query | Tablet Small 740px
+
+-------------------------------------------------------------- */
+@media screen and (min-width: 46.25em) {
+	/* Table
+	---------------------------------------------------------- */
+	table.item-sku {
+		width: 100%;
+	}
+	.item-info .item-sku th,
+	.item-info .item-sku tbody tr th,
+	.item-info .item-sku th:last-child,
+	.item-info .item-sku td,
+	.item-info .item-sku td:last-child {
+		border-width: 1px;
+		border-style: solid;
+	}
+
+	/* =WCEX Auto Delivery
+	-------------------------------------------------------------- */
+	#wc_regular dl.item-sku dt,
+	#wc_regular dl.item-sku dd {
+		float: none;
+	}
+}

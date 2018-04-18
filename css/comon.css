@@ -1,0 +1,773 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	background:#f5edce;
+	font-family:Sawarabi Gothic;
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: lobster,Sawarabi Gothic;
+}
+h3{
+	text-align:center;
+	text-shadow:5px 5px 1px #f3e3a5;
+	font-size:2vw;
+	line-height:1em;
+	transform: rotate(-6deg);
+	
+	}
+div.h3box{
+	background:#924727;
+	color:#2f2926;
+	transform: rotate(6deg);
+	width:11vw;
+	display:block;
+	margin:0 auto;
+	padding-right:13px;
+	z-index:100;
+	box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+	}
+h4{
+	text-align:center;
+	text-shadow:5px 5px 1px #f3e3a5;
+	font-size:1.2em;
+	line-height:1em;
+}
+footer h4{
+	text-shadow:none;
+}
+
+p.danraku{
+	margin:2em;
+	line-height: 2em;
+}
+
+header{
+	font-family:lobster;
+	color:#f5edce;	
+	background:#2f2926;
+
+}
+
+a{
+	color:#f5edce;
+}
+
+
+main{
+	margin:0 auto;
+    max-width: 100%;	
+}
+
+
+main section#area1,
+main section#area2{
+	max-width:80%;
+	height:auto;
+	text-align:center;
+	margin:0 auto;
+}
+
+section#mainimage img{
+	width:100%;
+    max-width: 100%;
+    height: 100%;
+	margin-top:50px;
+}
+
+/* コンテンツ写真効果 */
+.view {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    float: left;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+.view .mask, .view .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+.view h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+	top: 80px;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(47,41,38,.7);;
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+	top:120px;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: rgba(47,41,38,.7);
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+	position:absolute;
+	top:300px;
+	right:15px;
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000;
+}
+.view-first img {
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(97,100,62,.6);
+    transition: all 0.4s ease-in-out;
+}
+.view-first h3 {
+    transform: translateY(200px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first:hover img {
+    transform: scale(1.1);
+}
+.view-first:hover .mask {
+    opacity: 1;
+}
+.view-first:hover h3,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
+
+
+/* コンテンツ写真効果 ここまで*/
+
+.page-top
+{
+	display: none ;
+	margin: 0 ;
+	padding: 0 ;
+}
+ 
+.page-top p
+{
+	margin: 0 ;
+	padding: 0 ;
+
+	position: fixed ;
+	right: 16px ;
+	bottom: 16px ;
+}
+ 
+.move-page-top
+{
+	display: block ;
+	background:#2f2926;
+	width: 50px ;
+	height: 50px ;
+
+	color:#f5edce;
+	line-height: 50px ;
+	text-decoration: none ;
+	text-align: center ;
+
+	-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;
+}
+
+.move-page-top:hover
+{
+	opacity: 0.85 ;
+}
+
+div#footer{
+	color:#f5edce;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+
+div#footer h4{
+	padding-top: 1.2em;
+	font-family:lobster;
+	font-size:1.5em;
+
+}
+
+footer{
+	margin:0;
+	width:100%;
+	background:#2f2926;
+}
+
+footer address{
+	padding:1em;
+	font-size:0.8em;
+}
+
+footer p{
+	font-family:lobster;
+	font-size:1em;
+	line-height: 1.2em;
+	padding-top: 1.3em;
+	padding-bottom:1.3em;
+}
+
+footer ul{
+	font-size:0.7em;
+	width:50vw;
+	margin:0 auto;
+}
+
+footer ul li{
+	text-align:center;
+	margin-left:15px;
+    float: left;
+
+}
+/*グローバルナビ*/
+
+.inner {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+ 
+.inner:after {
+  content:"";
+  clear: both;
+  display: block;
+}
+ 
+/*--------header-----------*/
+ 
+#top-head {
+  top: -100px;
+  position: absolute;
+  width: 100%;
+  margin: 100px auto 0;
+  padding: 30px 0 10px 0;
+  line-height: 1;
+  z-index: 999;
+}
+ 
+#top-head a,
+#top-head {
+    color:#f5edce;	
+    text-decoration: none;
+}
+ 
+#top-head .inner {
+    position: relative;
+}
+#top-head .logo {
+    float: left;
+    position: relative;
+    font-size: 36px;
+    height: 3.5rem;
+
+}
+ 
+#top-head .logo a {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+#top-head h1.logo img {
+	width:11vw;
+    max-width: 100%;
+    height: auto;
+
+}
+
+#global-nav ul {
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 1.2rem;
+}
+#global-nav ul li {
+    float: left;
+    padding:0;
+}
+#global-nav ul li a{
+	padding: 0 20px 10px;
+    position: relative;
+    display: inline-block;
+	text-align:center;
+}
+#global-nav ul li.dropdown{
+    position: relative;
+    display:block;
+}
+#global-nav ul li.dropdown ul.sub-ul{
+	position: absolute;
+	padding-top:26px;
+	left:-5px;
+	right: auto;
+    width: auto;
+	display: none;
+
+}
+#global-nav ul li.dropdown:hover ul.sub-ul{
+	display:block;
+}
+
+
+#global-nav ul li.dropdown ul.sub-ul li a {
+    padding: 0 20px 10px;
+    position: relative;
+    display: block;
+	width: auto;
+	text-align:left;
+}
+
+#global-nav ul li.dropdown ul.sub-ul li{
+    width: auto;
+	float:none;
+	background:#2f2926;
+	padding-bottom:5px;
+	
+}
+
+#global-nav ul li a::after {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 2px;
+   -webkit-transform: scaleX(0);
+   -ms-transform: scaleX(0);
+   transform: scaleX(0);
+	background-color: #e18830;
+   -webkit-transition: all .3s ease;
+   transition: all .3s ease;
+}
+ 
+#global-nav ul li a:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+ 
+nav span{
+    background:#666;
+    height:2px;
+    display:block;
+    position:relative;
+    width:50px;
+    left:0;
+}
+
+
+/*--------固定化されたときのCSS-----------*/
+ 
+#top-head.fixed {
+    margin-top: 0;
+    top: 0;
+    position: fixed;
+    padding-top: 10px;
+    background: rgba(47,41,38,.7);
+    transition: top 0.65s ease-in;
+    -webkit-transition: top 0.65s ease-in;
+    -moz-transition: top 0.65s ease-in;
+}
+ 
+#top-head.fixed .logo {
+  	position: relative;
+    font-size: 24px;
+    color: #333;
+}
+ 
+#top-head.fixed .logo a {
+  position: absolute;
+  width: 100%;
+  height: auto;
+ 
+
+}
+#top-head.fixed #global-nav ul li a {
+	color:#f5edce;
+    padding: 0 20px;
+    padding-bottom: 10px;
+}
+
+#top-head.fixed #global-nav ul li ul.sub-ul li{
+    background: rgba(47,41,38,.7);
+    transition: top 0.65s ease-in;
+    -webkit-transition: top 0.65s ease-in;
+    -moz-transition: top 0.65s ease-in;
+	float:none;
+	text-align:left;
+	width: auto;
+	padding-bottom:5px;
+	
+	} 
+
+#top-head.fixed #global-nav ul li.dropdown ul.sub-ul li a {
+    padding: 0 20px 10px;
+    position: relative;
+    display: inline-block;
+	text-align:center;
+	width: auto;
+}
+ 
+ 
+/*-----------スマホのトグルボタンのCSS-------------*/
+ 
+#nav-toggle {
+    display: none;
+    position: absolute;
+    right: 12px;
+    top: 14px;
+    width: 34px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 101;
+}
+#nav-toggle div {
+    position: relative;
+}
+#nav-toggle span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+	color:#f5edce;
+	background:#f5edce;
+    left: 0;
+    -webkit-transition: .35s ease-in-out;
+    -moz-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
+}
+#nav-toggle span:nth-child(1) {
+    top: 0;
+}
+#nav-toggle span:nth-child(2) {
+    top: 11px;
+}
+#nav-toggle span:nth-child(3) {
+    top: 22px;
+}
+ 
+ 
+/*---------gnav sp--------------*/
+/*-----------スマホ-------------*/
+@media screen and (max-width: 767px) {
+	
+	main{
+	margin:0 auto;
+    width: 80%;	
+}
+	
+
+    .head-inner {
+	display:none;
+		
+    }
+ 
+    .slick-next {
+      right: 0;
+    }
+ 
+    #top-head,
+    .inner {
+        width: 100%;
+        padding: 0;
+    }
+    #top-head {
+        top: 0;
+        position: fixed;
+        margin-top: 0;
+    }
+	#top-head h1.logo img {
+	width:15vw;
+    max-width: 100%;
+    height: auto;
+
+
+  }
+
+    /* Fixed reset */
+    #top-head.fixed {
+        padding-top: 0;
+        background: transparent;
+    }
+    #mobile-head {
+		color:#f5edce;	
+		background:#2f2926;
+        width: 100%;
+        height: 70px;
+        z-index: 999;
+        position: relative;
+    }
+    #top-head.fixed .logo,
+    #top-head .logo {
+        position: absolute;
+        left: 43%;
+		width:15vw;
+        height: 50px;
+        top: 15px;
+		background:#2f2926;
+		color:#2f2926;	
+        font-size: 26px;
+    }
+	
+	#top-head.fixed h1.logo img{
+	width:100%;
+    max-width: 100%;
+    height: auto;
+}
+		
+    #global-nav {
+        position: absolute;
+        /* 開いてないときは画面外に配置 */
+        top: -1000px;
+		color:#f5edce;	
+		background:#2f2926;	
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+    #global-nav ul {
+        list-style: none;
+        position: static;
+        right: 0;
+        bottom: 0;
+        font-size: 14px;
+    }
+    #global-nav ul li {
+        float: none;
+        position: static;
+        padding: 18px 0;
+		color:#f5edce;	
+		background:#2f2926;
+    }
+    #top-head #global-nav ul li a,
+    #top-head.fixed #global-nav ul li a {
+        width: 100%;
+        display: block;
+        padding: 18px 0;
+    }
+    #nav-toggle {
+        display: block;
+    }
+    /* #nav-toggle 切り替えアニメーション */
+    .open #nav-toggle span:nth-child(1) {
+        top: 11px;
+        -webkit-transform: rotate(315deg);
+        -moz-transform: rotate(315deg);
+        transform: rotate(315deg);
+    }
+    .open #nav-toggle span:nth-child(2) {
+        width: 0;
+        left: 50%;
+    }
+    .open #nav-toggle span:nth-child(3) {
+        top: 11px;
+        -webkit-transform: rotate(-315deg);
+        -moz-transform: rotate(-315deg);
+        transform: rotate(-315deg);
+    }
+    /* #global-nav スライドアニメーション */
+    .open #global-nav {
+        /* #global-nav top + #mobile-head height */
+        -moz-transform: translateY(1056px);
+        -webkit-transform: translateY(1056px);
+        transform: translateY(1056px);
+    }
+}
+ 
+/*------------タブレット用------------------*/
+
+@media screen and (min-width:768px) and ( max-width:1024px) {
+
+  .head-inner {
+    display: none;
+  }
+ 
+  .slick-next {
+    right: 0;
+  }
+ 
+  #top-head,
+  .inner {
+      width: 100%;
+      padding: 0;
+  }
+  #top-head {
+      top: 0;
+      position: fixed;
+      margin-top: 0;
+  }
+  /* Fixed reset */
+  #top-head.fixed {
+      padding-top: 0;
+      background: transparent;
+  }
+  #mobile-head {
+	  background:#2f2926;
+	　color:#f5edce;	
+      width: 100%;
+      height: 70px;
+      z-index: 999;
+      position: relative;
+  }
+  #top-head.fixed .logo,
+  #top-head .logo {
+      position: absolute;
+      left: 43%;
+      height: 50px;
+      top: 15px;
+	　color:#2f2926;
+      font-size: 26px;
+  }
+  #top-head h1.logo img {
+	width:15vw;
+    max-width: 100%;
+    height: auto;
+
+}
+
+  #global-nav {
+      position: absolute;
+      /* 開いてないときは画面外に配置 */
+      top: -1000px;
+	　color:#f5edce;	
+	　background:#2f2926;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      transition: .5s ease-in-out;
+  }
+  #global-nav ul {
+	  background:#2f2926;
+      list-style: none;
+      position: static;
+      right: 0;
+      bottom: 0;
+      font-size: 14px;
+  }
+  #global-nav ul li {
+      float: none;
+      position: static;
+      padding: 18px 0;
+	　color:#f5edce;	
+	　background:#2f2926;
+  }
+  #top-head #global-nav ul li a,
+  #top-head.fixed #global-nav ul li a {
+      width: 100%;
+      display: block;
+		color:#f5edce;	
+		background:#2f2926;
+      padding: 18px 0;
+  }
+  #nav-toggle {
+      display: block;
+      right: 25px;
+      top: 20px;
+  }
+  /* #nav-toggle 切り替えアニメーション */
+  .open #nav-toggle span:nth-child(1) {
+      top: 11px;
+      -webkit-transform: rotate(315deg);
+      -moz-transform: rotate(315deg);
+      transform: rotate(315deg);
+  }
+  .open #nav-toggle span:nth-child(2) {
+      width: 0;
+      left: 50%;
+  }
+  .open #nav-toggle span:nth-child(3) {
+      top: 11px;
+      -webkit-transform: rotate(-315deg);
+      -moz-transform: rotate(-315deg);
+      transform: rotate(-315deg);
+  }
+  /* #global-nav スライドアニメーション */
+  .open #global-nav {
+      /* #global-nav top + #mobile-head height */
+	  -moz-transform: translateY(1056px);
+      -webkit-transform: translateY(1056px);
+      transform: translateY(1056px);
+  }
+ 
+ 
+}
+
+@media screen and  ( max-width:767px)  { 
+	/*　画面サイズが767px以下のときは、ここのスタイルを読み込む　*/
+	ul li.floatnone{
+          float: none;
+          margin: 0;
+          width: auto;
+	}
+	
+	footer ul{
+	font-size:1em;
+	width:100%;
+	margin:0 auto;
+	}
+
+		
+}
+
+@media screen and (min-width:768px) and ( max-width:1024px) {
+	/*　画面サイズが768px～1024pxの間は、ここのスタイルを読み込む　*/
+}
+
+@media screen and (min-width:1025px) {
+	/*　画面サイズが1024px以上の場合、ここのスタイルを読み込む　*/
+}

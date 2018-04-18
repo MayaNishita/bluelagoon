@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+main{
+	margin:0 auto;
+    max-width: 100%;	
+}
+
+h2{
+	font-family: lobster,Sawarabi Gothic;
+	text-align:center;
+	text-shadow:5px 5px 1px #f3e3a5;
+	font-size:4vw;
+	line-height:1.5em;
+	transform: rotate(-6deg);
+	display: inline-block;
+	}
+	
+.h2box{
+	background:#924727;
+	color:#2f2926;
+	transform: rotate(6deg);
+	display: inline-block;
+	padding-right:1vw;
+	z-index:99;
+	box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+	
+.box{
+	width:30%;
+	margin:0 auto;
+	text-align:center;
+
+}
+	
+main section#area1,
+main section#area2{
+	max-width:100%;
+	height:auto;
+	background:rgba(255,255,255,.4);
+	padding:5vw;
+	text-align:center;
+	margin:0 auto;
+	}
+
+
+/*マップの設定*/
+.ggmap {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+ 
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/*アバウトページ背景設定*/
+
+#wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+  
+.content {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+　height: 100%;
+}
+#first  { 
+  background: url(../images/about.gif) 50% 0 no-repeat fixed;
+  height: 0;
+    /* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+  padding-top: 56.25%;
+  background-size: cover;
+
+}
+#second { 
+  background: url(../images/second.jpg) 50% 0 no-repeat fixed;
+  height: 0;
+    /* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+  padding-top: 56.25%;
+  background-size: cover;
+}
+#third  { 
+  background: url(../images/third.jpg) 50% 0 no-repeat fixed;
+  height: 0;
+    /* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+  padding-top: 56.25%;
+  background-size: cover;
+}
+#end { 
+  background: url(../images/end.jpg) 50% 0 no-repeat fixed;
+  height: 0;
+    /* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+  padding-top: 56.25%;
+  background-size: cover;
+}
+ 
+/* div#first */
+.title {
+  position: fixed;
+  /*z-index: 10;*/
+}
+#first .inner {
+  position: absolute;
+  top: 35vh;
+  left: 10vw;
+  width: 30vw;
+}
+/*  div#second  */
+ 
+#second .inner {
+  position: absolute;
+  top: 70vh;
+  left: 30vw;
+  padding: 10px 20px;
+  width: 30vw;
+}
+ 
+/* #third .inner  */
+#third .inner {
+  position: absolute;
+  top: 0;
+  padding: 10px 20px;
+  color: white;
+}
+ 
+#third img {
+  position: absolute;
+  top: 500px;
+}
+ 
+/* div#end */
+#end h3 {
+  position: absolute;
+  color: white;
+  font-size: 4em;
+  left: 50%;
+  top: 20vh;
+  width: 15vw; 
+}
+
+/*以下ポラロイド風効果*/
+
+  
+  @media screen and (max-width: 767px) {
+    .polaroids li:nth-child(n+5) {
+      display: none;
+    }
+  }
+
+    ul.polaroids li { display: inline; }
+  	ul.polaroids a { background: #fff; display: inline; float: left; margin: 0 0 27px 30px; width: auto; padding: 10px 10px 15px; text-align: center; font-family: "Marker Felt", sans-serif; text-decoration: none; color: #333; font-size: 18px; -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25); -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25); -webkit-transform: rotate(-2deg); -webkit-transition: -webkit-transform .15s linear; -moz-transform: rotate(-2deg); }
+    ul.polaroids li {
+      padding-left: 0;
+    }
+    @media screen and (max-width: 768px) {
+      ul.polaroids li a {
+        margin-left: 0;
+      } 
+    }
+		ul.polaroids img { display: block; width: 190px; margin-bottom: 12px; }
+		ul.polaroids a:after { content: attr(title); }
+		
+		ul.polaroids li:nth-child(even) a { -webkit-transform: rotate(2deg);  -moz-transform: rotate(2deg); }
+		ul.polaroids li:nth-child(3n) a { -webkit-transform: none; position: relative; top: -5px;  -moz-transform: none; }
+		ul.polaroids li:nth-child(5n) a { -webkit-transform: rotate(5deg); position: relative; right: 5px;  -moz-transform: rotate(5deg); }
+		ul.polaroids li:nth-child(8n) a { position: relative; right: 5px; top: 8px; }
+		ul.polaroids li:nth-child(11n) a { position: relative; left: -5px; top: 3px; }
+		
+		ul.polaroids li.messy a {
+      margin-top: -400px;
+      position: relative;
+      left: 160px;
+    }
+		
+		ul.polaroids li a:hover { -webkit-transform: scale(1.25); -moz-transform: scale(1.25); -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5); position: relative; z-index: 5; }
+
+/*ポラロイド風効果ここまで*/

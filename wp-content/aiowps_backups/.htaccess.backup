@@ -1,0 +1,47 @@
+# BEGIN Force SSL for SAKURA
+# RewriteしてもHTTPS環境変数を有効にする
+SetEnvIf REDIRECT_HTTPS (.*) HTTPS=$1
+
+# 常時HTTPS化(HTTPSが無効な場合リダイレクト)
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{ENV:HTTPS} !on
+RewriteCond %{REQUEST_URI} !/wp-cron\.php$
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
+# END Force SSL for SAKURA
+# BEGIN SAKURA Internet Inc.
+<IfModule mod_deflate.c>
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/x-javascript application/javascript application/ecmascript
+</IfModule>
+<IfModule mod_expires.c>
+ExpiresActive On
+<FilesMatch "\.(css|js)$">
+ExpiresDefault "access plus 1 week"
+</FilesMatch>
+<FilesMatch "\.(gif|jpe?g|png)$">
+ExpiresDefault "access plus 1 month"
+</FilesMatch>
+</IfModule>
+# END SAKURA Internet Inc.
+
+# BEGIN WordPress
+
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+
+# add a trailing slash to /wp-admin
+RewriteRule ^([_0-9a-zA-Z-]+/)?wp-admin$ $1wp-admin/ [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(wp-(content|admin|includes).*) $2 [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(.*\.php)$ $2 [L]
+RewriteRule . index.php [L]
+
+
+# END WordPress
