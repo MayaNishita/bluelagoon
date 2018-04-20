@@ -28,3 +28,4 @@ register_sidebar(array(
      'after_title' => '</h3>'
 ));
 add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size( 300, 300, array( 'center', 'center')  );
