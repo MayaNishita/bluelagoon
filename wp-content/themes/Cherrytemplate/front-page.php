@@ -5,18 +5,14 @@
  */
 
 get_header(); ?>
-
-<section id="mainimage">
 <?php dynamic_sidebar('topslider'); ?>
-</section>
-
 <main>
 	   <section id="area1" class="clearfix">
         <h2><span>Service</span></h2>
        <?php query_posts( 'category_name=service&posts_per_page=3' ); ?>
        <?php while ( have_posts() ) : the_post(); ?>
         <article class="floatnone view view-first">
-                     <div class="view view-first"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium' ); ?></a></div>
+                     <div class="view view-first"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></div>
                      <div class="mask">
                         <h3>
                         <?php
