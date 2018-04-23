@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying index.
+ * The template for displaying front page.
  *
  */
 

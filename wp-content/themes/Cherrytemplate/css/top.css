@@ -102,8 +102,8 @@ main section#area2 article.floatnone img{
 #area1 article.floatnone,
 #area2 article.floatnone{
           float: none;
-          margin: 0;
-          width: auto;
+          margin: 0 auto;
+          width: 300px;
 
 }
 #area1,

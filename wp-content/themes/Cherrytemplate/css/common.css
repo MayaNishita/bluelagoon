@@ -304,7 +304,6 @@ footer ul li{
 }
 #top-head .logo {
     float: left;
-    position: relative;
     font-size: 36px;
     height: 3.5rem;
 
@@ -317,7 +316,7 @@ footer ul li{
 }
 
 #top-head h1.logo img {
-	width:11vw;
+    width:11vw;
     max-width: 100%;
     height: auto;
 
@@ -405,7 +404,6 @@ nav span{
 }
 
 #top-head.fixed .logo {
-  	position: relative;
     font-size: 24px;
     color: #333;
 }

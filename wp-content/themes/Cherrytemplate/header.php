@@ -118,7 +118,20 @@ $( function()
 <header id="top-head">
   <div class="inner">
     <div id="mobile-head">
-      <a href="index.html"><h1 class="logo"><img src="images/cherrysLogo.gif" width="185px" height="" alt="チェリーズカンパニー" /></h1></a>
+      <h1 class="logo"><?php
+      ///////////////////////////////////////
+      // ロゴ表示部分
+      ///////////////////////////////////////
+      if ( get_the_logo_image_url() ) : ?>
+        <div class='site-logo'>
+            <a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><img src='<?php echo get_the_logo_image_url(); ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>'></a>
+        </div>
+      <?php else : ?>
+        <hgroup>
+          <h1 class='site-title'><a href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><?php bloginfo( 'name' ); ?></a></h1>
+        </hgroup>
+      <?php endif; ?>
+      </h1>
       <div id="nav-toggle">
   <div>
               <span></span>
