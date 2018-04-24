@@ -26,23 +26,16 @@ get_header(); ?>
                         </h3>
                         <p>
                             <?php
-                            //brだけ残す
-                            if(mb_strlen($post->post_content, 'UTF-8')>20){
-                                $content= mb_substr(strip_tags($post->post_content, '<br>'), 0, 200, 'UTF-8');
-                                echo $content.'……';
-                            }else{
-                                echo strip_tags($post->post_content, '<br>');
-                            }
                             //brとspanを残す
-                            if(mb_strlen($post->post_content, 'UTF-8')>20){
-                                $content= mb_substr(strip_tags($post->post_content, '<br><span>'), 0, 200, 'UTF-8');
+                            if(mb_strlen($post->post_content, 'UTF-8')>10){
+                                $content= mb_substr(strip_tags($post->post_content, '<br><span>'), 0, 50, 'UTF-8');
                                 echo $content.'……';
                             }else{
                                 echo strip_tags($post->post_content, '<br><span>');
                             }
                             ?>
                         </p>
-                        <a href="<?php the_permalink(); ?>">Read More</a>
+                        <a class="info" href="<?php the_permalink(); ?>">Read More</a>
                  </div>
         </article>
         <?php endwhile; ?>
@@ -52,7 +45,7 @@ get_header(); ?>
        <?php query_posts( 'category_name=blog&posts_per_page=3' ); ?>
        <?php while ( have_posts() ) : the_post(); ?>
         <article class="floatnone view view-first">
-                     <div class="view view-first"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium' ); ?></a></div>
+                     <div class="view view-first"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></div>
                      <div class="mask">
                         <h3>
                         <?php
@@ -66,23 +59,16 @@ get_header(); ?>
                         </h3>
                         <p>
                             <?php
-                            //brだけ残す
-                            if(mb_strlen($post->post_content, 'UTF-8')>20){
-                                $content= mb_substr(strip_tags($post->post_content, '<br>'), 0, 200, 'UTF-8');
-                                echo $content.'……';
-                            }else{
-                                echo strip_tags($post->post_content, '<br>');
-                            }
                             //brとspanを残す
-                            if(mb_strlen($post->post_content, 'UTF-8')>20){
-                                $content= mb_substr(strip_tags($post->post_content, '<br><span>'), 0, 200, 'UTF-8');
+                            if(mb_strlen($post->post_content, 'UTF-8')>10){
+                                $content= mb_substr(strip_tags($post->post_content, '<br><span>'), 0, 50, 'UTF-8');
                                 echo $content.'……';
                             }else{
                                 echo strip_tags($post->post_content, '<br><span>');
                             }
                             ?>
                         </p>
-                        <a href="<?php the_permalink(); ?>">Read More</a>
+                        <a class="info" href="<?php the_permalink(); ?>">Read More</a>
                  </div>
         </article>
         <?php endwhile; ?>
