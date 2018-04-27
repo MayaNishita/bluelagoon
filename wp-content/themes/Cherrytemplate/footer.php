@@ -5,6 +5,7 @@
  */
 
 ?>
+<?php wp_footer(); ?>
 <h2><span>Instagram</span></h2>
 <section id="insta">
   <!-- SnapWidget -->
